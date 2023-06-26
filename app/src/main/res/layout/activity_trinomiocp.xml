@@ -10,7 +10,7 @@
         android:id="@+id/btnCalcular5"
         android:layout_width="174dp"
         android:layout_height="46dp"
-        android:onClick="LeerWs"
+        android:onClick="irAtras"
         android:text="ATRAS"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

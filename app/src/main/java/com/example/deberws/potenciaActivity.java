@@ -2,6 +2,7 @@ package com.example.deberws;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -37,6 +38,10 @@ public class potenciaActivity extends AppCompatActivity {
             }
         });*/
 
+    }
+    public void irAtras(View view){
+        Intent intent=new Intent(this,MainActivity.class);
+        view.getContext().startActivity(intent);
     }
 
     public void LeerWs(View view){
